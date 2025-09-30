@@ -1,0 +1,30 @@
+background-color: —  Поможет поменять цвет фона.
+2. color: —  Это свойство  используется для того, чтобы задать цвет текста.
+3. text-decoration-color: —  Когда вы задаёте цвет для текса в color, цвет 
+                              применяется и для оформления. Но если нужно, например, 
+                              задать цвет подчёркиванию, используйте это свойство.
+4*. border: — позволяет задать границы блоку.
+5. font-family: — задаст шрифт вашему тексту.
+6. font-size:  — задаст размер вашему тексту.
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>my_site</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <h1>это будет сайт про аниме фандомы</h1>
+    <p>и он будет синий</p>
+    <p>или зелёный </p>
+    <ul>
+        <li>ща посмотрим</li>
+        <li>и это тоже</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,27 @@
+@keyframes color-change {
+  0%  { color: #ff00ff; }
+  10% { color: purple; }
+  20% { color: blue; }
+  30% { color: #068ab3; }
+  40% { color: #08c8d6; }
+  50% { color: #0ee757; }
+  60% { color: #7dbd06; }
+  70% { color: #c8f745; }
+  80% { color: #e5f28f; }
+  90% { color: #f2c34b; }
+  100% { color: #750808; }
+}
+
+body {
+  font-family: Arial, sans-serif; /* Семейство шрифтов */
+  font-size: 11px; /* Размер основного шрифта */
+  background-color: #002421b7; /* Цвет фона, замените на нужный */
+  color: #8df7ee; /* Цвет текста */
+  animation: color-change 25s infinite;
+}
+
+p {
+  color: #00a800; /* Цвет текста */
+  text-decoration-color: #7c7edb;
+}
+
